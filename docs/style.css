@@ -62,7 +62,6 @@ h1{
 .container .section .num{
     background-color: var(--Dark-desaturated-blue);
     width: fit-content;
-    
     padding: 25px;
     border-radius: 5px;
     display: flex;
@@ -72,6 +71,9 @@ h1{
     font-size: 5rem;
     position: relative;
     margin-bottom: 15px;
+    -webkit-box-shadow: 0px 17px 17px -6px rgba(0,0,0,0.82);
+    -moz-box-shadow: 0px 17px 17px -6px rgba(0,0,0,0.82);
+    box-shadow: 0px 17px 17px -6px rgba(0,0,0,0.82);
 }
 .container .section .num p{
     margin: 0;
